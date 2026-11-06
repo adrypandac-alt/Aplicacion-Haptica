@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Haptic Music</string>
+    <string name="bienvenida">¡Bienvenido a Haptic Music!</string>
+    <string name="descripcion_splash">Siente la música a través de tus manos. Una herramienta diseñada para el aprendizaje inclusivo de notas musicales.</string>
+    <string name="boton_comenzar">COMENZAR</string>
+
+    <string name="titulo_calibracion">Calibración de Intensidad</string>
+    <string name="instrucciones_calibracion">Selecciona un nivel de vibración cómodo para ti. Puedes probar la intensidad tocando el botón.</string>
+    <string name="intensidad_baja">Baja</string>
+    <string name="intensidad_media">Media</string>
+    <string name="intensidad_alta">Alta</string>
+    <string name="boton_probar_vibracion">PROBAR VIBRACIÓN</string>
+    <string name="boton_continuar">CONTINUAR</string>
+
+    <string name="titulo_tutorial">Tutorial de Tactones</string>
+    <string name="descripcion_tutorial">Cada nota musical tiene un \"Tactón\" (patrón de vibración único). Toca cada nota para sentirla y memorizarla antes de jugar.</string>
+    <string name="boton_siguiente">SIGUIENTE</string>
+
+    <string name="menu_principal">Menú Principal</string>
+    <string name="opcion_aprender">1. MODO APRENDER</string>
+    <string name="opcion_archivo">2. MODO ARCHIVO (SIMULADO)</string>
+    <string name="opcion_progreso">3. VER MI PROGRESO</string>
+    <string name="opcion_configuracion">4. CONFIGURACIÓN</string>
+
+    <string name="modo_aprender_titulo">Modo Aprender</string>
+    <string name="instruccion_aprender">Siente el Tactón háptico e identifica a qué nota musical corresponde:</string>
+    <string name="reproducir_tacton">REPRODUCIR TACTÓN</string>
+    <string name="racha_actual">Racha actual: %1$d</string>
+    <string name="volver_menu">VOLVER AL MENÚ</string>
+
+    <string name="modo_archivo_titulo">Modo Archivo (Simulador)</string>
+    <string name="instruccion_archivo">Selecciona un archivo de audio (.mp3 o .wav) para simular su conversión matemática a pulsos hápticos.</string>
+    <string name="boton_seleccionar_archivo">SELECCIONAR ARCHIVO AUDIO</string>
+    <string name="archivo_no_seleccionado">Ningún archivo seleccionado</string>
+    <string name="analizando_archivo">Procesando ondas de audio...</string>
+    <string name="simulacion_completada">¡Conversión exitosa! Notas detectadas: DO - MI - SOL</string>
+    <string name="reproducir_secuencia">REPRODUCIR SECUENCIA HÁPTICA</string>
+
+    <string name="mi_progreso_titulo">Estadísticas de Progreso</string>
+    <string name="aciertos">Respuestas Correctas: %1$d</string>
+    <string name="errores">Respuestas Incorrectas: %1$d</string>
+    <string name="racha_maxima">Racha Máxima Alcanzada: %1$d</string>
+    <string name="porcentaje_progreso">Progreso General del Oído Háptico</string>
+
+    <string name="config_titulo">Configuraciones del Sistema</string>
+    <string name="dispositivo_salida">Dispositivo de salida de pulsos:</string>
+    <string name="modo_celular">Modo Celular (Motor Nativo Interno)</string>
+    <string name="modo_brazalete">Modo Brazalete Wearable (Vía BLE)</string>
+    <string name="guardar_config">GUARDAR CONFIGURACIÓN</string>
+</resources>

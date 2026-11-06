@@ -1,0 +1,24 @@
+--- original/audioToHaptics/build.gradle.kts
++++ integrado/audioToHaptics/build.gradle.kts
+@@ -1,6 +1,5 @@
+ plugins {
+     id("com.android.library")
+-    id("org.jetbrains.kotlin.android")
+     id("org.jetbrains.kotlin.plugin.serialization")
+ }
+ 
+@@ -20,7 +19,7 @@
+         sourceCompatibility = JavaVersion.VERSION_17
+         targetCompatibility = JavaVersion.VERSION_17
+     }
+-    kotlinOptions { jvmTarget = "17" }
++
+ 
+     // Los modelos .onnx se guardan sin comprimir en el APK para poder copiarlos rápido.
+     androidResources { noCompress += "onnx" }
+@@ -57,3 +56,5 @@
+ configurations.matching { it.name.endsWith("UnitTestRuntimeClasspath") }.configureEach {
+     exclude(group = "com.microsoft.onnxruntime", module = "onnxruntime-android")
+ }
++
++

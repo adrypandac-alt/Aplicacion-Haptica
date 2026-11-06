@@ -1,0 +1,34 @@
+
+{
+  "version": 1,
+  "classes": [
+    "sirena", "claxon", "alarma_humo", "timbre", "llanto_bebe",
+    "vidrio_roto", "maquinaria", "ladrido", "nombre_usuario", "fondo"
+  ],
+  "contexts": {
+    "urbano": {
+      "sirena":     { "prioridad": 3, "umbral": 0.60 },
+      "claxon":     { "prioridad": 3, "umbral": 0.60 },
+      "nombre_usuario": { "prioridad": 2, "umbral": 0.75 }
+    },
+    "social": {
+      "nombre_usuario": { "prioridad": 3, "umbral": 0.70 },
+      "alarma_humo":    { "prioridad": 3, "umbral": 0.55 },
+      "sirena":         { "prioridad": 2, "umbral": 0.65 }
+    },
+    "industrial": {
+      "maquinaria":  { "prioridad": 3, "umbral": 0.60 },
+      "alarma_humo": { "prioridad": 3, "umbral": 0.50 },
+      "sirena":      { "prioridad": 2, "umbral": 0.65 },
+      "nombre_usuario": { "prioridad": 2, "umbral": 0.75 }
+    },
+    "hogar": {
+      "alarma_humo":  { "prioridad": 3, "umbral": 0.50 },
+      "llanto_bebe":  { "prioridad": 3, "umbral": 0.55 },
+      "timbre":       { "prioridad": 2, "umbral": 0.60 },
+      "vidrio_roto":  { "prioridad": 3, "umbral": 0.60 },
+      "ladrido":      { "prioridad": 1, "umbral": 0.75 },
+      "nombre_usuario": { "prioridad": 3, "umbral": 0.70 }
+    }
+  }
+}

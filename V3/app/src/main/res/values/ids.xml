@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnCargarArchivo" type="id" />
+    <item name="tvNombreArchivo" type="id" />
+    <item name="pbAnalisisProgreso" type="id" />
+    <item name="tvEstadoAnalisis" type="id" />
+    <item name="btnReproducirSecuencia" type="id" />
+    <item name="btnVolverMenuArchivo" type="id" />
+</resources>

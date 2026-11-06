@@ -1,0 +1,11 @@
+{
+  "archivos_comparados": 47,
+  "identicos": 43,
+  "modificados": [
+    "audioToHaptics/build.gradle.kts",
+    "audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/ModelIntegrationTest.kt",
+    "sound-engine/build.gradle.kts",
+    "sound-engine/src/main/java/com/indoamerica/haptica/soundengine/SoundEngine.kt"
+  ],
+  "cambios_no_previstos_en_produccion": []
+}

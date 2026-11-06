@@ -1,0 +1,98 @@
+[
+  {
+    "pagina": 1,
+    "caracteres": 1273,
+    "fuera_de_margen": 0,
+    "inicio": "DOCUMENTACIÓN DE LA ENTREGA / 29 OCTUBRE 2026\nCómo se unificó\nV3Integracion1.0\nArquitectura, adaptación de interfaz, conservación de algorit"
+  },
+  {
+    "pagina": 2,
+    "caracteres": 1517,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 01\nGuía de lectura y alcance\nPágina Contenido\n3 Arquitectura y estructura del pr"
+  },
+  {
+    "pagina": 3,
+    "caracteres": 1507,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 02\nArquitectura unificada\nLa aplicación se organizó en tres responsabilidades: p"
+  },
+  {
+    "pagina": 4,
+    "caracteres": 1879,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 03\nCompilación y recursos\nSección Adaptación Motivo\nsettings.gradle.kts Incluye "
+  },
+  {
+    "pagina": 5,
+    "caracteres": 1607,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 04\nMotor cotidiano: funcionamiento\nMicrófono: audio mono a 16 000 Hz\nVentanas de"
+  },
+  {
+    "pagina": 6,
+    "caracteres": 1457,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 05\nContextos y clases disponibles\nCatalogoCotidianoEquipo lee los mismos context"
+  },
+  {
+    "pagina": 7,
+    "caracteres": 1914,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 06\nSesiones y ciclo de vida\nInicio de la escucha\nLa pantalla solicita permiso de"
+  },
+  {
+    "pagina": 8,
+    "caracteres": 1844,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 07\nAlertas y conexión háptica\nSe conservó ConexionEntornoBle y los comandos de l"
+  },
+  {
+    "pagina": 9,
+    "caracteres": 1469,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 08\nBiblioteca musical recibida\nSe reutilizó la implementación Android de AudioTo"
+  },
+  {
+    "pagina": 10,
+    "caracteres": 2022,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 09\nConexión musical con la app\nPor qué se usa la API por URI\nLa interfaz anterio"
+  },
+  {
+    "pagina": 11,
+    "caracteres": 925,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 10\nInterfaz cotidiana: evidencia\nLas capturas se obtuvieron durante las pruebas "
+  },
+  {
+    "pagina": 12,
+    "caracteres": 782,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 11\nInicio y Música: evidencia\nLa navegación conserva Inicio, Música y Cotidiano."
+  },
+  {
+    "pagina": 13,
+    "caracteres": 1782,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 12\nCambios directos en los equipos\n1. SoundEngine.kt: releaseAndJoin\nUbicación: "
+  },
+  {
+    "pagina": 14,
+    "caracteres": 1713,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 13\nPruebas y conservación de fuentes\nGrupo Superadas Omitidas Fallos\nAplicación "
+  },
+  {
+    "pagina": 15,
+    "caracteres": 1804,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 14\nUso y reproducción de la entrega\nCompilar e instalar\nAbrir V3Integracion1.0 e"
+  },
+  {
+    "pagina": 16,
+    "caracteres": 2044,
+    "fuera_de_margen": 0,
+    "inicio": "V3INTEGRACION1.0 / INFORME DE UNIFICACIÓN\nINFORME TÉCNICO / 15\nMapa técnico y pendientes\nArchivo o carpeta Responsabilidad\napp/.../integraci"
+  }
+]

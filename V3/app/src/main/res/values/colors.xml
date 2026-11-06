@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores base absolutos -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- PALETA DE COLORES NÓRDICA / TECH (IMAGEN) -->
+    <!-- Fondo principal claro y limpio -->
+    <color name="color_fondo">#DDDDDB</color>
+
+    <!-- Texto principal e iconos: Azul noche de alta visibilidad -->
+    <color name="color_texto_principal">#111728</color>
+
+    <!-- Texto secundario / Desactivado: Azul grisáceo medio -->
+    <color name="color_texto_secundario">#8397a7</color>
+
+    <!-- Botones y elementos principales: Azul acero -->
+    <color name="color_primario_boton">#294B77</color>
+
+    <!-- Tarjetas, contenedores o acentos suaves: Verde azulado pálido -->
+    <color name="color_superficie_tarjeta">#89ABAD</color>
+
+    <!-- Feedback Semántico Adaptado -->
+    <color name="correcto_verde">#2A703D</color>
+    <color name="incorrecto_rojo">#B32626</color>
+
+    <!-- Colores faltantes referenciados en layouts -->
+    <color name="fondo_oscuro">#1A1A1A</color>
+    <color name="alerta_amarillo">#FFD700</color>
+    <color name="texto_primario">#FFFFFF</color>
+    <color name="texto_secundario">#A0A0A0</color>
+    <color name="gris_tarjeta">#2C2C2C</color>
+    <!-- Colores específicos del juego (Interfaz nueva) -->
+    <color name="verde_juego">#1DB954</color>
+    <color name="rojo_juego">#FF4D4D</color>
+    <color name="azul_juego">#00E5FF</color>
+    <color name="naranja_juego">#FFB300</color>
+    <color name="gris_oscuro_boton">#121212</color>
+    <!-- Colores nuevos de diseño -->
+    <color name="verde_diseno">#00D166</color>
+    <color name="gris_input_borde">#CCCCCC</color>
+</resources>

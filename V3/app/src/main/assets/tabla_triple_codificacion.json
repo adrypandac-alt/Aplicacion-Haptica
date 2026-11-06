@@ -1,0 +1,109 @@
+{
+  "version": "2.0",
+  "proyecto": "Haptic Music",
+  "descripcion": "Tabla de codificación háptica para 12 notas musicales. Cada nota se representa mediante frecuencia vibrotáctil y ubicación espacial entre dos actuadores Voice Coil.",
+
+  "escala_cromatica": [
+    {
+      "nota": "DO",
+      "frecuencia_hz": 62.147964530,
+      "ubicacion_espacial": 0.0,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "DO#",
+      "frecuencia_hz": 75.819517727,
+      "ubicacion_espacial": 0.9,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "RE",
+      "frecuencia_hz": 92.499811627,
+      "ubicacion_espacial": 1.8,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "RE#",
+      "frecuencia_hz": 112.849771185,
+      "ubicacion_espacial": 2.7,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "MI",
+      "frecuencia_hz": 137.676721846,
+      "ubicacion_espacial": 3.6,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "FA",
+      "frecuencia_hz": 167.965600644,
+      "ubicacion_espacial": 4.5,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "FA#",
+      "frecuencia_hz": 204.918032787,
+      "ubicacion_espacial": 5.4,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "SOL",
+      "frecuencia_hz": 250.000000000,
+      "ubicacion_espacial": 6.3,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "SOL#",
+      "frecuencia_hz": 305.000000000,
+      "ubicacion_espacial": 7.2,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "LA",
+      "frecuencia_hz": 372.100000000,
+      "ubicacion_espacial": 8.1,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "LA#",
+      "frecuencia_hz": 453.962000000,
+      "ubicacion_espacial": 9.0,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    },
+    {
+      "nota": "SI",
+      "frecuencia_hz": 553.833640000,
+      "ubicacion_espacial": 10.0,
+      "amplitud_sugerida": 100,
+      "duracion_ms": 300
+    }
+  ],
+
+  "espacialidad": {
+    "rango_minimo": 0.0,
+    "rango_maximo": 10.0,
+    "descripcion": "0.0 representa el actuador izquierdo, 5.0 la zona central y 10.0 el actuador derecho.",
+    "metodo": "crossfade_potencia_constante"
+  },
+
+  "hardware": {
+    "microcontrolador": "ESP32",
+    "amplificador": "PAM8403",
+    "numero_actuadores": 2,
+    "tipo_actuadores": "Voice Coil",
+    "impedancia_actuadores_ohm": 4,
+    "salida_izquierda": "GPIO25 / DAC1",
+    "salida_derecha": "GPIO26 / DAC2"
+  }
+}
