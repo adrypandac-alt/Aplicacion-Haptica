@@ -1,0 +1,7 @@
+claxon
+fondo
+ladrido
+llanto_bebe
+maquinaria
+sirena
+vidrio_roto

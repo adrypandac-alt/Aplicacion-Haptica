@@ -1,0 +1,24 @@
+--- original/sound-engine/src/main/java/com/indoamerica/haptica/soundengine/SoundEngine.kt
++++ integrado/sound-engine/src/main/java/com/indoamerica/haptica/soundengine/SoundEngine.kt
+@@ -177,6 +177,16 @@
+ 
+     override fun stop() { job?.cancel(); job = null }
+ 
++    /** Integración: espera que AudioRecord y la inferencia terminen antes de cerrar los modelos. */
++    suspend fun releaseAndJoin() {
++        val actual = job
++        actual?.cancelAndJoin()
++        job = null
++        scope.cancel()
++        yamnet.close()
++        head.close()
++    }
++
+     override fun release() {
+         stop()
+         scope.cancel()
+@@ -185,4 +195,4 @@
+     }
+ 
+ 
+-}+}

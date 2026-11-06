@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- La biblioteca no declara permisos: todo el procesamiento es local y no usa la red. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" />

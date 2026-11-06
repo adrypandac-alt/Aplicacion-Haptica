@@ -1,0 +1,92 @@
+{
+  "app_unitarias": {
+    "total": 11,
+    "fallos": 0,
+    "omitidas": 0,
+    "superadas": 11,
+    "detalle": [
+      {
+        "suite": "com.rommelguerra.prototipomusichaptic.ExampleUnitTest",
+        "tests": "1",
+        "fallos": "0",
+        "omitidas": "0"
+      },
+      {
+        "suite": "com.rommelguerra.prototipomusichaptic.integracion.CargaEventosTest",
+        "tests": "3",
+        "fallos": "0",
+        "omitidas": "0"
+      },
+      {
+        "suite": "com.rommelguerra.prototipomusichaptic.integracion.CatalogoEntornoTest",
+        "tests": "3",
+        "fallos": "0",
+        "omitidas": "0"
+      },
+      {
+        "suite": "com.rommelguerra.prototipomusichaptic.integracion.IntegracionAlgoritmosTest",
+        "tests": "4",
+        "fallos": "0",
+        "omitidas": "0"
+      }
+    ]
+  },
+  "musica_unitarias": {
+    "total": 31,
+    "fallos": 0,
+    "omitidas": 6,
+    "superadas": 25,
+    "detalle": [
+      {
+        "suite": "com.tesis.audiotohaptics.ConfigAndErrorsTest",
+        "tests": "7",
+        "fallos": "0",
+        "omitidas": "0"
+      },
+      {
+        "suite": "com.tesis.audiotohaptics.DspTest",
+        "tests": "7",
+        "fallos": "0",
+        "omitidas": "1"
+      },
+      {
+        "suite": "com.tesis.audiotohaptics.ModelIntegrationTest",
+        "tests": "2",
+        "fallos": "0",
+        "omitidas": "2"
+      },
+      {
+        "suite": "com.tesis.audiotohaptics.PercussionTest",
+        "tests": "4",
+        "fallos": "0",
+        "omitidas": "1"
+      },
+      {
+        "suite": "com.tesis.audiotohaptics.PipelineIntegrationTest",
+        "tests": "2",
+        "fallos": "0",
+        "omitidas": "2"
+      },
+      {
+        "suite": "com.tesis.audiotohaptics.SynthesisTest",
+        "tests": "9",
+        "fallos": "0",
+        "omitidas": "0"
+      }
+    ]
+  },
+  "emulador": {
+    "total": 7,
+    "fallos": 0,
+    "omitidas": 0,
+    "superadas": 7,
+    "detalle": [
+      {
+        "suite": null,
+        "tests": "7",
+        "fallos": "0",
+        "omitidas": "0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+[
+  {
+    "archivo": "audioToHaptics/build.gradle.kts",
+    "estado": "modificado",
+    "sha256_origen": "903b169d5f6d02d21e427de5524a3311c03e989f15fd5174580fbd5562a6fbb1",
+    "sha256_integrado": "2bf8cdc8428c1b5b27805eef91c0557f4bbbdc1df080943f4f84451a947c73e5",
+    "diff": "docs/auditoria/audioToHaptics_build.gradle.kts.diff"
+  },
+  {
+    "archivo": "audioToHaptics/consumer-rules.pro",
+    "estado": "identico",
+    "sha256_origen": "adcfb7182b47fb90410ca9faa3f0b6459cca78a9222e2f77db857cfd8cc6e990",
+    "sha256_integrado": "adcfb7182b47fb90410ca9faa3f0b6459cca78a9222e2f77db857cfd8cc6e990"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/AndroidManifest.xml",
+    "estado": "identico",
+    "sha256_origen": "2a847e3e269074a79cc929b6acc555f6d2a057d56706682e3c7c06f1a6136973",
+    "sha256_integrado": "2a847e3e269074a79cc929b6acc555f6d2a057d56706682e3c7c06f1a6136973"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/assets/audiotohaptics/models/basic_pitch_nmp.onnx",
+    "estado": "identico",
+    "sha256_origen": "2c3c1d144bfa61ad236e92e169c13535c880469a12a047d4e73451f2c059a0ec",
+    "sha256_integrado": "2c3c1d144bfa61ad236e92e169c13535c880469a12a047d4e73451f2c059a0ec"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/audio/AndroidAudioDecoder.kt",
+    "estado": "identico",
+    "sha256_origen": "1741ac5ecf41fc8e12fef36295739d5970be4a56b45e946ecf0877aa6ab72b72",
+    "sha256_integrado": "1741ac5ecf41fc8e12fef36295739d5970be4a56b45e946ecf0877aa6ab72b72"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/audio/Wav.kt",
+    "estado": "identico",
+    "sha256_origen": "8b933ff51dc4c56901d8dc7f3b331e3e824b0f678c9c52e5980216010653ea28",
+    "sha256_integrado": "8b933ff51dc4c56901d8dc7f3b331e3e824b0f678c9c52e5980216010653ea28"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/AudioToHaptics.kt",
+    "estado": "identico",
+    "sha256_origen": "01a793d9dfc7e09937f784236b6eeff9067505fbd612f87c0c329a458e82dda4",
+    "sha256_integrado": "01a793d9dfc7e09937f784236b6eeff9067505fbd612f87c0c329a458e82dda4"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/config/HapticsConfig.kt",
+    "estado": "identico",
+    "sha256_origen": "ae5e4f4efd9272c54e49791949a74c220ead8237ebf4bec4e9625da76df09c33",
+    "sha256_integrado": "ae5e4f4efd9272c54e49791949a74c220ead8237ebf4bec4e9625da76df09c33"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/config/HapticsException.kt",
+    "estado": "identico",
+    "sha256_origen": "52131d53360c9793344fbbdf8fe68f6ed9965459d82f881b0302b6094150aa8e",
+    "sha256_integrado": "52131d53360c9793344fbbdf8fe68f6ed9965459d82f881b0302b6094150aa8e"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/dsp/Fft.kt",
+    "estado": "identico",
+    "sha256_origen": "2c353e72445d4e35a89515d5eef0c3d9296d35921dcc5c7734aee00c8953dc1e",
+    "sha256_integrado": "2c353e72445d4e35a89515d5eef0c3d9296d35921dcc5c7734aee00c8953dc1e"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/dsp/Resampler.kt",
+    "estado": "identico",
+    "sha256_origen": "cb5b862fe2cb2ce62bdacf161e09825dda076111b47ae74c64696a29e96bdb19",
+    "sha256_integrado": "cb5b862fe2cb2ce62bdacf161e09825dda076111b47ae74c64696a29e96bdb19"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/ModelStore.kt",
+    "estado": "identico",
+    "sha256_origen": "8758c24925ff18562a7f0f3fbe9b1e2ded76b7f48f7e1d6e7126105dacb999d3",
+    "sha256_integrado": "8758c24925ff18562a7f0f3fbe9b1e2ded76b7f48f7e1d6e7126105dacb999d3"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/percussion/OnsetDetector.kt",
+    "estado": "identico",
+    "sha256_origen": "d8b5d66c06251cf548ffe68f48480f9532efa71ded5dfb54b3de90cde63bb797",
+    "sha256_integrado": "d8b5d66c06251cf548ffe68f48480f9532efa71ded5dfb54b3de90cde63bb797"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/pipeline/HapticsPipeline.kt",
+    "estado": "identico",
+    "sha256_origen": "923d76264fdf5cb99d8dccba898873d8e151be1a081b1294c48afe42afe1c3fb",
+    "sha256_integrado": "923d76264fdf5cb99d8dccba898873d8e151be1a081b1294c48afe42afe1c3fb"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/pipeline/ManifestWriter.kt",
+    "estado": "identico",
+    "sha256_origen": "8a92b9d093f66158d6475eea4c03cdcc58ba01453b68958ffb92a64609f0854c",
+    "sha256_integrado": "8a92b9d093f66158d6475eea4c03cdcc58ba01453b68958ffb92a64609f0854c"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/ProcessingTypes.kt",
+    "estado": "identico",
+    "sha256_origen": "502644a8ae71c327372a3f58337e27778403a08ce8fba366f6b21428155c08ab",
+    "sha256_integrado": "502644a8ae71c327372a3f58337e27778403a08ce8fba366f6b21428155c08ab"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/separation/DemucsSeparator.kt",
+    "estado": "identico",
+    "sha256_origen": "00d645a7e116221f5b93f05011ef21ad14fc28e5ad6e52c72d3361fc18bc750a",
+    "sha256_integrado": "00d645a7e116221f5b93f05011ef21ad14fc28e5ad6e52c72d3361fc18bc750a"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/separation/DemucsSpectrogram.kt",
+    "estado": "identico",
+    "sha256_origen": "17d0ea170ed9627cb23849ab2019b50bd9eea96a1cd25ac284844613b7295481",
+    "sha256_integrado": "17d0ea170ed9627cb23849ab2019b50bd9eea96a1cd25ac284844613b7295481"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/storage/FloatStorage.kt",
+    "estado": "identico",
+    "sha256_origen": "e20b08df279c7ac60dfdf3174b11112f9de59067473d4db6b1dbadb688f2acdf",
+    "sha256_integrado": "e20b08df279c7ac60dfdf3174b11112f9de59067473d4db6b1dbadb688f2acdf"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/synthesis/SignalSynthesizer.kt",
+    "estado": "identico",
+    "sha256_origen": "45e062ee11eb0533971072ce578fe87be7b1f0708a8c51f252be1bbe2dd51fce",
+    "sha256_integrado": "45e062ee11eb0533971072ce578fe87be7b1f0708a8c51f252be1bbe2dd51fce"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/transcription/BasicPitchTranscriber.kt",
+    "estado": "identico",
+    "sha256_origen": "226811e4ca1861ee05db5dd70b6278ae129fde1d115183893c2af4e4fb18dcb5",
+    "sha256_integrado": "226811e4ca1861ee05db5dd70b6278ae129fde1d115183893c2af4e4fb18dcb5"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/transcription/MidiWriter.kt",
+    "estado": "identico",
+    "sha256_origen": "e2b475f3f56b649a8a9567a8511f08d8c4ed5444d34398c1ca95eacca90adf4b",
+    "sha256_integrado": "e2b475f3f56b649a8a9567a8511f08d8c4ed5444d34398c1ca95eacca90adf4b"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/transcription/NoteCreation.kt",
+    "estado": "identico",
+    "sha256_origen": "5de308b1dff63150d3de7d6bceafe727a4286d2052ff328e0e8a9bdaa4c6b3bd",
+    "sha256_integrado": "5de308b1dff63150d3de7d6bceafe727a4286d2052ff328e0e8a9bdaa4c6b3bd"
+  },
+  {
+    "archivo": "audioToHaptics/src/main/kotlin/com/tesis/audiotohaptics/validation/SignalValidator.kt",
+    "estado": "identico",
+    "sha256_origen": "e128c1b21613ac51b38ab2be87a83452af78a4600bae2871e2d403531c438652",
+    "sha256_integrado": "e128c1b21613ac51b38ab2be87a83452af78a4600bae2871e2d403531c438652"
+  },
+  {
+    "archivo": "audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/ConfigAndErrorsTest.kt",
+    "estado": "identico",
+    "sha256_origen": "a9e20112e8ae110976b7c3e3a8996b8339cc8c0be899935f2310a7b1adc284db",
+    "sha256_integrado": "a9e20112e8ae110976b7c3e3a8996b8339cc8c0be899935f2310a7b1adc284db"
+  },
+  {
+    "archivo": "audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/DspTest.kt",
+    "estado": "identico",
+    "sha256_origen": "f6abfaf56994b90da4542fa7da6e422d2942340999b2a19f471fd8851d3a3671",
+    "sha256_integrado": "f6abfaf56994b90da4542fa7da6e422d2942340999b2a19f471fd8851d3a3671"
+  },
+  {
+    "archivo": "audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/ModelIntegrationTest.kt",
+    "estado": "modificado",
+    "sha256_origen": "cacf2bcf2de5d413ba03f3ccc1cb66e0ecc6273cc47b517cc31e585cbeea2f6e",
+    "sha256_integrado": "2a6e3a85a8122f7b3b6da9f5d0d3b42e2fb3a5985ef564c8bf805dc6fb7d5546",
+    "diff": "docs/auditoria/audioToHaptics_src_test_kotlin_com_tesis_audiotohaptics_ModelIntegrationTest.kt.diff"
+  },
+  {
+    "archivo": "audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/PercussionTest.kt",
+    "estado": "identico",
+    "sha256_origen": "12c5a0c6ec34585b5a91a4259399a283662f98e2de6312dbb477105fbd7f8839",
+    "sha256_integrado": "12c5a0c6ec34585b5a91a4259399a283662f98e2de6312dbb477105fbd7f8839"
+  },
+  {
+    "archivo": "audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/PipelineIntegrationTest.kt",
+    "estado": "identico",
+    "sha256_origen": "af95b5e2c1870ae0d1ea0052b8e9b877760a3d06588059eddf87664210e3fd65",
+    "sha256_integrado": "af95b5e2c1870ae0d1ea0052b8e9b877760a3d06588059eddf87664210e3fd65"
+  },
+  {
+    "archivo": "audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/SynthesisTest.kt",
+    "estado": "identico",
+    "sha256_origen": "9cdd829be0c9d55da2ebd1f4eb69fa5a7b311bbb421066a0082b25f9587d69c9",
+    "sha256_integrado": "9cdd829be0c9d55da2ebd1f4eb69fa5a7b311bbb421066a0082b25f9587d69c9"
+  },
+  {
+    "archivo": "audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/TestSupport.kt",
+    "estado": "identico",
+    "sha256_origen": "f690ff428db4ff1764a2fdddf106d824049d40060a1b98c4f371b4f2e0aa72c2",
+    "sha256_integrado": "f690ff428db4ff1764a2fdddf106d824049d40060a1b98c4f371b4f2e0aa72c2"
+  },
+  {
+    "archivo": "audioToHapticsModels/build.gradle.kts",
+    "estado": "identico",
+    "sha256_origen": "ac7f9ac0e69a15688c31811b0febe103b83b89ec324029075ea725d87a74f1a3",
+    "sha256_integrado": "ac7f9ac0e69a15688c31811b0febe103b83b89ec324029075ea725d87a74f1a3"
+  },
+  {
+    "archivo": "audioToHapticsModels/src/main/AndroidManifest.xml",
+    "estado": "identico",
+    "sha256_origen": "16c282229fc8e836b4e5591653ba9c24b31ff32c0137165fd26625be41cce249",
+    "sha256_integrado": "16c282229fc8e836b4e5591653ba9c24b31ff32c0137165fd26625be41cce249"
+  },
+  {
+    "archivo": "sound-engine/.gitignore",
+    "estado": "identico",
+    "sha256_origen": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4",
+    "sha256_integrado": "5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4"
+  },
+  {
+    "archivo": "sound-engine/build.gradle.kts",
+    "estado": "modificado",
+    "sha256_origen": "70c5d7beef8333190fc335127806e8e0361e2fa7839ccb01d6f5f5c066f12e17",
+    "sha256_integrado": "086fa6ee7b490d30ee5de5822cc8ecbaaca88df91dfc75d6487419ccd1f8c31b",
+    "diff": "docs/auditoria/sound-engine_build.gradle.kts.diff"
+  },
+  {
+    "archivo": "sound-engine/consumer-rules.keep",
+    "estado": "identico",
+    "sha256_origen": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha256_integrado": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "sound-engine/src/main/AndroidManifest.xml",
+    "estado": "identico",
+    "sha256_origen": "a7073b96ff342848009af07827207c1f8c613ba9887a3492a3087984e0e05cdb",
+    "sha256_integrado": "a7073b96ff342848009af07827207c1f8c613ba9887a3492a3087984e0e05cdb"
+  },
+  {
+    "archivo": "sound-engine/src/main/assets/clases.txt",
+    "estado": "identico",
+    "sha256_origen": "3fe4fab0f7d3946a371e37654404368608de935dd59caaaa183b62b33ff0ad9f",
+    "sha256_integrado": "3fe4fab0f7d3946a371e37654404368608de935dd59caaaa183b62b33ff0ad9f"
+  },
+  {
+    "archivo": "sound-engine/src/main/assets/contexts.json",
+    "estado": "identico",
+    "sha256_origen": "aab03c1a7a71fc9d058a29e2112e1dbc3f821b5a6999092105b0b68b7ff3a198",
+    "sha256_integrado": "aab03c1a7a71fc9d058a29e2112e1dbc3f821b5a6999092105b0b68b7ff3a198"
+  },
+  {
+    "archivo": "sound-engine/src/main/assets/head.tflite",
+    "estado": "identico",
+    "sha256_origen": "20eee8a9f3e2c0845db7396e685b01fcf8c37dcf0b221400450879794c2575b8",
+    "sha256_integrado": "20eee8a9f3e2c0845db7396e685b01fcf8c37dcf0b221400450879794c2575b8"
+  },
+  {
+    "archivo": "sound-engine/src/main/assets/yamnet.tflite",
+    "estado": "identico",
+    "sha256_origen": "141fba1cdaae842c816f28edc4937e8b4f0af4c8df21862ccc6b52dc567993c3",
+    "sha256_integrado": "141fba1cdaae842c816f28edc4937e8b4f0af4c8df21862ccc6b52dc567993c3"
+  },
+  {
+    "archivo": "sound-engine/src/main/java/com/indoamerica/haptica/soundengine/ContextConfig.kt",
+    "estado": "identico",
+    "sha256_origen": "4f9e1a9feeeaa35e3eaca933e4cbe9f9e9596349a7a1d6e95d0ca10e4cea1c8a",
+    "sha256_integrado": "4f9e1a9feeeaa35e3eaca933e4cbe9f9e9596349a7a1d6e95d0ca10e4cea1c8a"
+  },
+  {
+    "archivo": "sound-engine/src/main/java/com/indoamerica/haptica/soundengine/Modos.kt",
+    "estado": "identico",
+    "sha256_origen": "5c782b6d4aa0f6837f171a328bf812929b296790b38b415562695ce784d09768",
+    "sha256_integrado": "5c782b6d4aa0f6837f171a328bf812929b296790b38b415562695ce784d09768"
+  },
+  {
+    "archivo": "sound-engine/src/main/java/com/indoamerica/haptica/soundengine/SoundEngine.kt",
+    "estado": "modificado",
+    "sha256_origen": "34dc38c335ea7a7d0f149c1e2512032f2a73b0b2b4a4678c83452f262bda6c0d",
+    "sha256_integrado": "162d55988bb6f59daaea3a075f84203924c9259e0dd129315b6656812c44c12c",
+    "diff": "docs/auditoria/sound-engine_src_main_java_com_indoamerica_haptica_soundengine_SoundEngine.kt.diff"
+  },
+  {
+    "archivo": "sound-engine/src/main/java/com/indoamerica/haptica/soundengine/SoundEvent.kt",
+    "estado": "identico",
+    "sha256_origen": "92c43d035a8bb8958e1e7abb67ed4b92df9778984103b7e5b2813fb37f6609da",
+    "sha256_integrado": "92c43d035a8bb8958e1e7abb67ed4b92df9778984103b7e5b2813fb37f6609da"
+  },
+  {
+    "archivo": "sound-engine/src/main/java/com/indoamerica/haptica/soundengine/SoundRecognizer.kt",
+    "estado": "identico",
+    "sha256_origen": "bd35da0ae739c32ff81484c05d7599dc2eb620c9bf0e9ae2ddbb594a2307bb51",
+    "sha256_integrado": "bd35da0ae739c32ff81484c05d7599dc2eb620c9bf0e9ae2ddbb594a2307bb51"
+  },
+  {
+    "archivo": "sound-engine/src/main/keepRules/rules.keep",
+    "estado": "identico",
+    "sha256_origen": "cd9f36ade2d8604e1b7cf24eff5b171f9c0816c0aa013ba7eb55be4fe2e1dac7",
+    "sha256_integrado": "cd9f36ade2d8604e1b7cf24eff5b171f9c0816c0aa013ba7eb55be4fe2e1dac7"
+  }
+]

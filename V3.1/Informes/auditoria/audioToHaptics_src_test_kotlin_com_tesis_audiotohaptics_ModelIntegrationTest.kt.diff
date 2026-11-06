@@ -1,0 +1,17 @@
+--- original/audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/ModelIntegrationTest.kt
++++ integrado/audioToHaptics/src/test/kotlin/com/tesis/audiotohaptics/ModelIntegrationTest.kt
+@@ -34,6 +34,14 @@
+     @Test
+     fun basicPitchKotlinMatchesNumpyReferenceAndPrototype() {
+         TestPaths.require(TestPaths.basicPitchModel)
++        // Integración: el ZIP no incluye los stems WAV ni las referencias numpy.
++        val referenciasPresentes = listOf("cancion_prueba", "cancion_prueba_2").any { song ->
++            listOf("vocals", "guitar").any { stem ->
++                File(TestPaths.practica, "results/separacion/htdemucs_6s/$song/$stem.wav").isFile &&
++                    File(TestPaths.fixtures, "bp_${stem}_$song.csv").isFile
++            }
++        }
++        org.junit.Assume.assumeTrue("Faltan audios y referencias externas de Basic Pitch", referenciasPresentes)
+         val report = StringBuilder()
+         BasicPitchTranscriber(TestPaths.basicPitchModel).use { bp ->
+             for (song in listOf("cancion_prueba", "cancion_prueba_2")) for (stem in listOf("vocals", "guitar")) {
